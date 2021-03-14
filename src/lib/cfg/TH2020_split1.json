@@ -1,0 +1,16 @@
+{
+    "root":"../../Dataset/",
+    "train":
+    {
+        "TH2020_split1_train":"./data/TH2020_split1.train",
+        "TH2020_split1_val":"./data/TH2020_split1.val"
+    },
+    "test_emb":
+    {
+        "mot17":"./data/mot17.val"
+    },
+    "test":
+    {
+        "mot17":"./data/mot17.val"
+    }
+}
