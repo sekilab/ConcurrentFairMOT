@@ -1,4 +1,8 @@
+
 # Concurrent FairMOT with Simple Camera Motion Cancellation
+
+![output](https://user-images.githubusercontent.com/37895847/111121868-8bbba180-85b0-11eb-8607-21330daca119.gif)
+
 
 This repository contains the source code for our concurrent pipeline implementation for FairMOT. This implementation increases execution speed by up to 50%.
 
