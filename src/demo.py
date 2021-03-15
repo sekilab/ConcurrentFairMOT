@@ -58,7 +58,7 @@ def demo(opt):
             if opt.output_format == 'video':
                 output_video_path = osp.join(result_root, osp.splitext(osp.basename(input_video))[0] + '-results.mp4')
                 #cmd_str = 'ffmpeg -f image2 -r:v 30 -i {}/%05d.jpg -b 5000k -c:v mpeg4 {}'.format(osp.join(result_root, 'frame'), output_video_path)
-                cmd_str = 'ffmpeg -f image2 -r:v 30 -i {}/%05d.jpg -c:v copy {}'.format(osp.join(result_root, 'frame'), output_video_path)
+                cmd_str = 'ffmpeg -f image2 -r:v 30 -i {}/%05d.jpg -b 10000k -c:v libx264 {}'.format(osp.join(result_root, 'frame'), output_video_path)
                 os.system(cmd_str)
 
 

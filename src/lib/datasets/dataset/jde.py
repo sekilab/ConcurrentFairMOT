@@ -113,8 +113,9 @@ class LoadVideo:  # for inference
         # Read image
         res, img0 = self.cap.read()  # BGR
         assert img0 is not None, 'Failed to load frame {:d}'.format(self.count)
-        img0 = img0[:540,:960]
-        #img0 = cv2.resize(img0, (self.w, self.h))
+        #hack for simply getting part of the video because I was too lazy to slice it with other means
+        #img0 = img0[:540,:960]
+        img0 = cv2.resize(img0, (self.w, self.h))
 
         # Padded resize
         img, _, _, _ = letterbox(img0, height=self.height, width=self.width)
