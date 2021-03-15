@@ -3,11 +3,13 @@ from __future__ import division
 from __future__ import print_function
 
 import _init_paths
-import sys
-if "/home/ubuntu/py3envtf3/models/research/slim" in sys.path:
-    sys.path.remove("/home/ubuntu/py3envtf3/models/research/slim")
-import os
 
+#Hack to avoid name collision with slim dataset module 
+#import sys
+#if <path to your slim package> in sys.path:
+#    sys.path.remove(<path to your slim package>)
+
+import os
 import json
 import torch
 import torch.utils.data

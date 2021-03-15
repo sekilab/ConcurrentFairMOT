@@ -16,9 +16,10 @@ import queue
 import time
 import json
 
-import sys
-if "/home/ubuntu/py3envtf3/models/research/slim" in sys.path:
-    sys.path.remove("/home/ubuntu/py3envtf3/models/research/slim")
+#Hack to avoid name collision with slim dataset module 
+#import sys
+#if <path to your slim package> in sys.path:
+#    sys.path.remove(<path to your slim package>)
 
 from tracker.multitracker import JDETracker
 from tracking_utils import visualization as vis
