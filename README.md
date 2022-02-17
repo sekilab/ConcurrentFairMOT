@@ -111,7 +111,7 @@ We also created similar implementations for [DeepSORT](https://github.com/nwojke
 
 # Citation
 If you find our source code, or dataset useful please cite our paper:
-https://brokenlink
+https://doi.org/10.1016/j.cviu.2022.103386
 
 # License
 Images on this dataset are available under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). The license and link to the legal document can be found next to every image on the service in the image information panel and contains the CC BY-SA 4.0 mark:
