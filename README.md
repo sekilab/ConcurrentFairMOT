@@ -90,11 +90,11 @@ The other extra parameters for tracking are working here in exactly the same way
 ## TH2020 dataset
 If you want to use our helicopter-based medium altitude dataset you download it below.
 
-Images with bounding box annotation for training: [link](https://sekilab-students.s3-ap-northeast-1.amazonaws.com/Gergely/TH2020/TH2020_bb.zip)
+Images with bounding box annotation for training: [link](https://sekilab-students.s3.ap-northeast-1.amazonaws.com/2020/Gergely/TH2020/TH2020_bb.zip)
 
-Video sequences with ID-based annotation for evaluation:  [link](https://sekilab-students.s3-ap-northeast-1.amazonaws.com/Gergely/TH2020/TH2020_MOT_eval_seq.zip)
+Video sequences with ID-based annotation for evaluation:  [link](https://sekilab-students.s3.ap-northeast-1.amazonaws.com/2020/Gergely/TH2020/TH2020_MOT_eval_seq.zip)
 
-We also share a model pretrained on the above dataset: [link](https://sekilab-students.s3-ap-northeast-1.amazonaws.com/Gergely/TH2020/fairmot_th2020_dla34.pth)
+We also share a model pretrained on the above dataset: [link](https://sekilab-students.s3.ap-northeast-1.amazonaws.com/2020/Gergely/TH2020/fairmot_th2020_dla34.pth)
 
 For further models please see the original FairMOT page: https://github.com/ifzhang/FairMOT
 
